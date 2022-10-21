@@ -1,0 +1,26 @@
+/*
+ * hojaServicio.h
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ *      ● idHoja (comienza en 20000)
+● vehiculoId (debe existir) Validar
+● descripcion
+● precioServicio
+● fecha (Validar día, mes y año)
+ */
+
+#ifndef HOJASERVICIO_H_
+#define HOJASERVICIO_H_
+#include "funciones.h"
+
+typedef struct{
+	int idHoja;
+	int vehiculoId;
+	int descripcion;
+	float precionServicio;
+	int fecha;
+}eServicio;
+
+
+#endif /* HOJASERVICIO_H_ */

@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : main.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int opciones;
+
+	do
+	{
+		printf("\n1-AlTA VEHICULOS "
+				"\n2-MODIFICAR VEHICULOS "
+				"\n3-BAJA VEHICULOS "
+				"\n4-LISTA VEHICULOS "
+				"\n5-LISTA POR TIPO "
+				"\n6-LISTA HOJA DE SERVICIO "
+				"\n7-SALIR");
+		    opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);
+
+	}while(opciones !=7);
+
+	swtich(opciones)
+	{
+		case 1:
+		break;
+		case 2:
+				break;
+		case 3:
+				break;
+		case 4:
+				break;
+		case 5:
+				break;
+		case 6:
+				break;
+		case 7:
+				break;
+	}
+	return EXIT_SUCCESS;
+}
+

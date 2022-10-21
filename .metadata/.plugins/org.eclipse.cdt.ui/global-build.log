@@ -1,0 +1,472 @@
+09:04:12 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eFecha.o" "..\\src\\eFecha.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);ç
+                ^~~~~~~~~~~~
+..\src\main.c:27:64: error: stray '\303' in program
+       opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);ç
+                                                                ^
+..\src\main.c:27:65: error: stray '\247' in program
+       opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);ç
+                                                                 ^
+..\src\main.c:30:7: warning: implicit declaration of function 'swtich' [-Wimplicit-function-declaration]
+       swtich( opciones) {
+       ^~~~~~
+..\src\main.c:30:25: error: expected ';' before '{' token
+       swtich( opciones) {
+                         ^
+09:04:25 **** Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:04:25 **** Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:04:25 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);
+                ^~~~~~~~~~~~
+..\src\main.c:30:7: warning: implicit declaration of function 'swtich' [-Wimplicit-function-declaration]
+       swtich( opciones) {
+       ^~~~~~
+..\src\main.c:30:25: error: expected ';' before '{' token
+       swtich( opciones) {
+                         ^
+09:04:32 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:04:33 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:04:33 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("Seleciones una opcion 1-7", 1, 7);
+                ^~~~~~~~~~~~
+..\src\main.c:30:7: warning: implicit declaration of function 'swtich' [-Wimplicit-function-declaration]
+       swtich( opciones) {
+       ^~~~~~
+..\src\main.c:30:25: error: expected ';' before '{' token
+       swtich( opciones) {
+                         ^
+09:07:01 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:07:01 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:07:01 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones.o" "..\\src\\funciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eTipo.o" "..\\src\\eTipo.c" 
+..\src\eTipo.c: In function 'inicializarEstructuraEtipo':
+..\src\eTipo.c:23:12: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'; did you mean 'isEmptyy'?
+    lista[i].isEmpty=LIBRE;
+            ^
+..\src\eTipo.c: At top level:
+..\src\eTipo.c:32:28: error: unknown type name 'eTipolista'
+ int buscarIndiceLibreEtipo(eTipolista[],int tam)
+                            ^~~~~~~~~~
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:55:2: error: unknown type name 'eFecha'
+  eFecha aux;
+  ^~~~~~
+..\src\eTipo.c:56:7: error: request for member 'dia' in something not a structure or union
+    aux.dia=obtenerRango("Ingrese un dia", 1, 31);
+       ^
+..\src\eTipo.c:57:7: error: request for member 'mes' in something not a structure or union
+    aux.mes=obtenerRango("Ingrese mes", 1, 12);
+       ^
+..\src\eTipo.c:58:7: error: request for member 'anio' in something not a structure or union
+    aux.anio=obtenerRango("Ingrese año ",1950 , 2022);
+       ^
+..\src\eTipo.c:59:5: error: request for member 'isEmpty' in something not a structure or union
+  aux.isEmpty= OCUPADO;
+     ^
+..\src\eTipo.c:61:9: error: incompatible types when returning type 'int' but 'eTipo {aka struct <anonymous>}' was expected
+  return aux;
+         ^~~
+..\src\eTipo.c: In function 'altaEfecha':
+..\src\eTipo.c:71:17: warning: implicit declaration of function 'buscarIndiceLibreEfecha' [-Wimplicit-function-declaration]
+   posicionLibre=buscarIndiceLibreEfecha(lista, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+..\src\eTipo.c:72:9: warning: implicit declaration of function 'pedirDatosEmpleadoEfecha' [-Wimplicit-function-declaration]
+   fecha=pedirDatosEmpleadoEfecha(id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\eTipo.c:72:8: error: incompatible types when assigning to type 'eTipo {aka struct <anonymous>}' from type 'int'
+   fecha=pedirDatosEmpleadoEfecha(id);
+        ^
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:07:05 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:07:05 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:07:05 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eTipo.o" "..\\src\\eTipo.c" 
+..\src\eTipo.c: In function 'inicializarEstructuraEtipo':
+..\src\eTipo.c:23:12: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'; did you mean 'isEmptyy'?
+    lista[i].isEmpty=LIBRE;
+            ^
+..\src\eTipo.c: At top level:
+..\src\eTipo.c:32:28: error: unknown type name 'eTipolista'
+ int buscarIndiceLibreEtipo(eTipolista[],int tam)
+                            ^~~~~~~~~~
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:55:2: error: unknown type name 'eFecha'
+  eFecha aux;
+  ^~~~~~
+..\src\eTipo.c:56:7: error: request for member 'dia' in something not a structure or union
+    aux.dia=obtenerRango("Ingrese un dia", 1, 31);
+       ^
+..\src\eTipo.c:57:7: error: request for member 'mes' in something not a structure or union
+    aux.mes=obtenerRango("Ingrese mes", 1, 12);
+       ^
+..\src\eTipo.c:58:7: error: request for member 'anio' in something not a structure or union
+    aux.anio=obtenerRango("Ingrese año ",1950 , 2022);
+       ^
+..\src\eTipo.c:59:5: error: request for member 'isEmpty' in something not a structure or union
+  aux.isEmpty= OCUPADO;
+     ^
+..\src\eTipo.c:61:9: error: incompatible types when returning type 'int' but 'eTipo {aka struct <anonymous>}' was expected
+  return aux;
+         ^~~
+..\src\eTipo.c: In function 'altaEfecha':
+..\src\eTipo.c:71:17: warning: implicit declaration of function 'buscarIndiceLibreEfecha' [-Wimplicit-function-declaration]
+   posicionLibre=buscarIndiceLibreEfecha(lista, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+..\src\eTipo.c:72:9: warning: implicit declaration of function 'pedirDatosEmpleadoEfecha' [-Wimplicit-function-declaration]
+   fecha=pedirDatosEmpleadoEfecha(id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\eTipo.c:72:8: error: incompatible types when assigning to type 'eTipo {aka struct <anonymous>}' from type 'int'
+   fecha=pedirDatosEmpleadoEfecha(id);
+        ^
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:14:11 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:14:11 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:14:11 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("\nSeleciones una opcion 1-7", 1, 7);
+                ^~~~~~~~~~~~
+..\src\main.c:30:7: warning: implicit declaration of function 'swtich' [-Wimplicit-function-declaration]
+       swtich( opciones) {
+       ^~~~~~
+..\src\main.c:30:25: error: expected ';' before '{' token
+       swtich( opciones) {
+                         ^
+09:28:49 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:28:50 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:28:50 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hojaServicio.o" "..\\src\\hojaServicio.c" 
+..\src\hojaServicio.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\hojaServicio.c:55:20: warning: implicit declaration of function 'obtenerRang' [-Wimplicit-function-declaration]
+     aux.vehiculoId=obtenerRang("Ingrese id del vehiculo", -150, 25000);
+                    ^~~~~~~~~~~
+..\src\hojaServicio.c:56:38: warning: passing argument 2 of 'pedirChar' makes pointer from integer without a cast [-Wint-conversion]
+     pedirChar("ingrese descripcion", aux.descripcion, LEN_DESCRIPCION);
+                                      ^~~
+In file included from ..\src\hojaServicio.h:15:0,
+                 from ..\src\hojaServicio.c:7:
+..\src\funciones.h:18:6: note: expected 'char *' but argument is of type 'int'
+ void pedirChar(char*mensaje,char*nombre,int largoNombre);
+      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("\nSeleciones una opcion 1-7", 1, 7);
+                ^~~~~~~~~~~~
+..\src\main.c:30:7: warning: implicit declaration of function 'swtich' [-Wimplicit-function-declaration]
+       swtich( opciones) {
+       ^~~~~~
+..\src\main.c:30:25: error: expected ';' before '{' token
+       swtich( opciones) {
+                         ^
+09:40:13 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:40:13 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:40:14 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hojaServicio.o" "..\\src\\hojaServicio.c" 
+..\src\hojaServicio.c: In function 'pedirDatosEmpleadoHojaSrvicio':
+..\src\hojaServicio.c:55:20: warning: implicit declaration of function 'obtenerRang' [-Wimplicit-function-declaration]
+     aux.vehiculoId=obtenerRang("Ingrese id del vehiculo", -150, 25000);
+                    ^~~~~~~~~~~
+..\src\hojaServicio.c:56:38: warning: passing argument 2 of 'pedirChar' makes pointer from integer without a cast [-Wint-conversion]
+     pedirChar("ingrese descripcion", aux.descripcion, LEN_DESCRIPCION);
+                                      ^~~
+In file included from ..\src\hojaServicio.h:15:0,
+                 from ..\src\hojaServicio.c:7:
+..\src\funciones.h:18:6: note: expected 'char *' but argument is of type 'int'
+ void pedirChar(char*mensaje,char*nombre,int largoNombre);
+      ^~~~~~~~~
+..\src\hojaServicio.c: In function 'altaEfecha':
+..\src\hojaServicio.c:68:17: warning: implicit declaration of function 'buscarIndiceLibreEtipo' [-Wimplicit-function-declaration]
+   posicionLibre=buscarIndiceLibreEtipo(lista, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:8: warning: implicit declaration of function 'pedirDatosEmpleadoEtipo' [-Wimplicit-function-declaration]
+   tipo=pedirDatosEmpleadoEtipo(id);
+        ^~~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:7: error: incompatible types when assigning to type 'eServicio {aka struct <anonymous>}' from type 'int'
+   tipo=pedirDatosEmpleadoEtipo(id);
+       ^
+09:41:03 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:03 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:03 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eTipo.o" "..\\src\\eTipo.c" 
+In file included from ..\src\eTipo.c:8:0:
+..\src\eTipo.h:10:23: warning: extra tokens at end of #include directive
+ #include "funciones.h"s
+                       ^
+In file included from ..\src\eTipo.c:8:0:
+..\src\eTipo.h:16:23: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+   char descripcion[30]="1-SEDAN" "3PTAS"  "2-SEDAN" "5PTAS" " 3-CAMIONETA" ;
+                       ^
+..\src\eTipo.c: In function 'inicializarEstructuraEtipo':
+..\src\eTipo.c:23:12: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+    lista[i].isEmpty=LIBRE;
+            ^
+..\src\eTipo.c: In function 'buscarIndiceLibreEtipo':
+..\src\eTipo.c:40:15: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+    if(lista[i].isEmpty==LIBRE)
+               ^
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:57:41: error: 'eTipo {aka struct <anonymous>}' has no member named 'descripcion'
+     pedirChar("Ingrese descripcion", aux.descripcion, LEN_DESCRPCION);
+                                         ^
+..\src\eTipo.c: In function 'buscarPosicionPorIdTipo':
+..\src\eTipo.c:92:19: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+        if(lista[i].isEmpty==OCUPADO && lista[i].idTipo==id)
+                   ^
+09:41:10 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:10 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:10 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eFecha.o" "..\\src\\eFecha.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones.o" "..\\src\\funciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nexo.o" "..\\src\\nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eTipo.o" "..\\src\\eTipo.c" 
+In file included from ..\src\eTipo.c:8:0:
+..\src\eTipo.h:10:23: warning: extra tokens at end of #include directive
+ #include "funciones.h"s
+                       ^
+In file included from ..\src\eTipo.c:8:0:
+..\src\eTipo.h:16:23: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+   char descripcion[30]="1-SEDAN" "3PTAS"  "2-SEDAN" "5PTAS" " 3-CAMIONETA" ;
+                       ^
+..\src\eTipo.c: In function 'inicializarEstructuraEtipo':
+..\src\eTipo.c:23:12: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+    lista[i].isEmpty=LIBRE;
+            ^
+..\src\eTipo.c: In function 'buscarIndiceLibreEtipo':
+..\src\eTipo.c:40:15: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+    if(lista[i].isEmpty==LIBRE)
+               ^
+..\src\eTipo.c: In function 'pedirDatosEmpleadoEtipo':
+..\src\eTipo.c:57:41: error: 'eTipo {aka struct <anonymous>}' has no member named 'descripcion'
+     pedirChar("Ingrese descripcion", aux.descripcion, LEN_DESCRPCION);
+                                         ^
+..\src\eTipo.c: In function 'buscarPosicionPorIdTipo':
+..\src\eTipo.c:92:19: error: 'eTipo {aka struct <anonymous>}' has no member named 'isEmpty'
+        if(lista[i].isEmpty==OCUPADO && lista[i].idTipo==id)
+                   ^
+09:41:13 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:13 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:13 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hojaServicio.o" "..\\src\\hojaServicio.c" 
+..\src\hojaServicio.c: In function 'pedirDatosEmpleadoHojaSrvicio':
+..\src\hojaServicio.c:55:20: warning: implicit declaration of function 'obtenerRang' [-Wimplicit-function-declaration]
+     aux.vehiculoId=obtenerRang("Ingrese id del vehiculo", -150, 25000);
+                    ^~~~~~~~~~~
+..\src\hojaServicio.c:56:38: warning: passing argument 2 of 'pedirChar' makes pointer from integer without a cast [-Wint-conversion]
+     pedirChar("ingrese descripcion", aux.descripcion, LEN_DESCRIPCION);
+                                      ^~~
+In file included from ..\src\hojaServicio.h:15:0,
+                 from ..\src\hojaServicio.c:7:
+..\src\funciones.h:18:6: note: expected 'char *' but argument is of type 'int'
+ void pedirChar(char*mensaje,char*nombre,int largoNombre);
+      ^~~~~~~~~
+..\src\hojaServicio.c: In function 'altaEservicio':
+..\src\hojaServicio.c:68:17: warning: implicit declaration of function 'buscarIndiceLibreEtipo' [-Wimplicit-function-declaration]
+   posicionLibre=buscarIndiceLibreEtipo(lista, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:12: warning: implicit declaration of function 'pedirDatosEmpleadoEservicio' [-Wimplicit-function-declaration]
+   servicio=pedirDatosEmpleadoEservicio(id);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:11: error: incompatible types when assigning to type 'eServicio {aka struct <anonymous>}' from type 'int'
+   servicio=pedirDatosEmpleadoEservicio(id);
+           ^
+09:41:37 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:38 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:38 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hojaServicio.o" "..\\src\\hojaServicio.c" 
+..\src\hojaServicio.c: In function 'pedirDatosEmpleadoHojaSevicio':
+..\src\hojaServicio.c:55:20: warning: implicit declaration of function 'obtenerRang' [-Wimplicit-function-declaration]
+     aux.vehiculoId=obtenerRang("Ingrese id del vehiculo", -150, 25000);
+                    ^~~~~~~~~~~
+..\src\hojaServicio.c:56:38: warning: passing argument 2 of 'pedirChar' makes pointer from integer without a cast [-Wint-conversion]
+     pedirChar("ingrese descripcion", aux.descripcion, LEN_DESCRIPCION);
+                                      ^~~
+In file included from ..\src\hojaServicio.h:15:0,
+                 from ..\src\hojaServicio.c:7:
+..\src\funciones.h:18:6: note: expected 'char *' but argument is of type 'int'
+ void pedirChar(char*mensaje,char*nombre,int largoNombre);
+      ^~~~~~~~~
+..\src\hojaServicio.c: In function 'altaEservicio':
+..\src\hojaServicio.c:68:17: warning: implicit declaration of function 'buscarIndiceLibreEtipo' [-Wimplicit-function-declaration]
+   posicionLibre=buscarIndiceLibreEtipo(lista, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:12: warning: implicit declaration of function 'pedirDatosEmpleadoServicio' [-Wimplicit-function-declaration]
+   servicio=pedirDatosEmpleadoServicio(id);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hojaServicio.c:69:11: error: incompatible types when assigning to type 'eServicio {aka struct <anonymous>}' from type 'int'
+   servicio=pedirDatosEmpleadoServicio(id);
+           ^
+09:41:49 **** Incremental Build of configuration Default for project array6-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:49 **** Incremental Build of configuration Default for project ejercicio10-2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\eclipse\cpp-2022-06\eclipse]
+09:41:49 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:28:16: warning: implicit declaration of function 'obtenerRango' [-Wimplicit-function-declaration]
+       opciones=obtenerRango("\nSeleciones una opcion 1-7", 1, 7);
+                ^~~~~~~~~~~~
+..\src\main.c:40:9: error: expected ';' before '}' token
+         }
+         ^
+..\src\main.c:45:8: error: expected ';' before '}' token
+        }
+        ^
+..\src\main.c:51:6: error: expected ';' before '}' token
+      }
+      ^
+..\src\main.c:57:6: error: expected ';' before '}' token
+      }
+      ^
+..\src\main.c:63:9: error: expected ';' before '}' token
+         }
+         ^

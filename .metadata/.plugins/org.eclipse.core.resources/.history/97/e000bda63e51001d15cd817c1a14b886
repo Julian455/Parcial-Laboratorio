@@ -1,0 +1,25 @@
+/*
+ * eTipo.h
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ */
+
+#ifndef ETIPO_H_
+#define ETIPO_H_
+#include "funciones.h"s
+#define LEN_DESCRPCION 30
+
+
+typedef struct{
+  int idTipo;
+  char descripcion[30]="1-SEDAN" "3PTAS"  "2-SEDAN" "5PTAS" " 3-CAMIONETA" ;
+  int isEmpty;
+}eTipo;
+
+int inicializarEstructuraEtipo(eTipo lista[],int tam);
+int buscarIndiceLibreEtipo(eTipo lista[],int tam);
+eTipo pedirDatosEmpleadoEtipo(int id);
+int altaEfecha(eTipo lista[],int tam,int id);
+int buscarPosicionPorIdTipo(eTipo lista[],int tam,int id);
+#endif /* ETIPO_H_ */

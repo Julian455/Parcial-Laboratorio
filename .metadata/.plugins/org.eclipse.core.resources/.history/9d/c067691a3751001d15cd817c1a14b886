@@ -1,0 +1,69 @@
+/*
+ * eFecha.c
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ */
+
+
+#include "eFecha.h"
+#define OCUPADO	0//esta ocupado el isEmpty
+#define LIBRE 1//esta libre el isEmpty
+
+int inicializarEstructuraEfecha(eFecha lista[],int tam)
+{
+	int retorno=-1;
+
+
+	//con esto sabems si mi campo isEmpty esta ocupado o no
+	if(lista!=NULL && tam>0)
+	{
+		for(int i=0;i<tam;i++)
+		{
+			lista[i].isEmpty=LIBRE;
+
+		}
+		retorno=0;
+	}
+
+	return retorno;
+
+}
+int buscarIndiceLibreEfecha(eFecha lista[],int tam)
+{
+	int retorno=-1;
+
+	if (lista != NULL && tam > 0)
+	{
+		for (int i = 0; i < tam; i++)
+		{
+			if(lista[i].isEmpty==LIBRE)
+			{
+				//agarro el numero de mi posicion que es i y lo devuelvo por el retorno
+				retorno=i;
+				//aca rompo con un break para que no siga buscando
+				break;
+			}
+		}
+		retorno = 0;
+	}
+
+	return retorno;
+}
+eFecha pedirDatosEmpleadoEmp(int id)//modificar parametros y recibiri la listas de sectores
+{
+	eEmpleado aux;
+	aux.id=id;
+	//pido nombre
+	pedirChar("Ingrese el nombre: ", aux.nombre, LEN_CHARS);
+	//pido apellido
+	pedirChar("Ingrese el apellido ", aux.apellido, LEN_CHARS);
+	//pedir salario tipo numero
+	aux.salario = obtenerRangoFloat("Ingrese el salario: ", 0, 10000);
+	//aca deberia mostrar la lista de sectores
+	aux.sector=obtenerRango("Seleciones el id del sector: ", 0, 10000);
+	//falta nada mas emsEmpty
+	aux.isEmpty= OCUPADO;
+
+	return aux;
+}

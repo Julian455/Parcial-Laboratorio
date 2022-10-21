@@ -1,0 +1,26 @@
+/*
+ * funciones.h
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ */
+
+#ifndef FUNCIONES_H_
+#define FUNCIONES_H_
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+s
+
+void formarApellidoNombre(char*pNombre,char*pApellido,char*pCompleto);
+void pedirChar(char*mensaje,char*nombre,int largoNombre);
+int obtenerRango(char*mensaje,int min,int max);
+float obtenerRangoFloat(char*mensaje,int min,int max);
+
+
+
+
+
+#endif /* FUNCIONES_H_ */

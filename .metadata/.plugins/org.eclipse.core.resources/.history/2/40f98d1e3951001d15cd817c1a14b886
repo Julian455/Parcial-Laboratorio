@@ -1,0 +1,19 @@
+/*
+ * eTipo.h
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ */
+
+#ifndef ETIPO_H_
+#define ETIPO_H_
+#include "funciones.h"
+
+
+typedef struct{
+  int idTipo;
+  int descripcion;
+  int isEmptyy;
+}eTipo;
+
+#endif /* ETIPO_H_ */

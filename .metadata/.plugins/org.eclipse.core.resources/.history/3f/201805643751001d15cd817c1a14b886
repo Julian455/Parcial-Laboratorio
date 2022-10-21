@@ -1,0 +1,62 @@
+/*
+ * eFecha.c
+ *
+ *  Created on: 21 oct. 2022
+ *      Author: PC
+ */
+
+
+#include "eFecha.h"
+#define OCUPADO	0//esta ocupado el isEmpty
+#define LIBRE 1//esta libre el isEmpty
+
+int inicializarEstructuraEfecha(eFecha lista[],int tam)
+{
+	int retorno=-1;
+
+
+	//con esto sabems si mi campo isEmpty esta ocupado o no
+	if(lista!=NULL && tam>0)
+	{
+		for(int i=0;i<tam;i++)
+		{
+			lista[i].isEmpty=LIBRE;
+
+		}
+		retorno=0;
+	}
+
+	return retorno;
+
+}
+int buscarIndiceLibreEfecha(eFecha lista[],int tam)
+{
+	int retorno=-1;
+
+	if (lista != NULL && tam > 0)
+	{
+		for (int i = 0; i < tam; i++)
+		{
+			if(lista[i].isEmpty==LIBRE)
+			{
+				//agarro el numero de mi posicion que es i y lo devuelvo por el retorno
+				retorno=i;
+				//aca rompo con un break para que no siga buscando
+				break;
+			}
+		}
+		retorno = 0;
+	}
+
+	return retorno;
+}
+eFecha pedirDatosEmpleadoEmp(int id)//modificar parametros y recibiri la listas de sectores
+{
+	eFecha aux;
+   aux.dia=obtenerRango("Ingrese un dia", 1, 31);
+   aux.mes=obtenerRango("Ingrese mes", 1, 12);
+   aux.anio=obtenerRango("Ingrese año ", 1900, 2022);
+	aux.isEmpty= OCUPADO;
+
+	return aux;
+}
